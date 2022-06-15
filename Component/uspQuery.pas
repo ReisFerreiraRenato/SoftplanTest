@@ -3,7 +3,7 @@ unit uspQuery;
 interface
 
 uses
-  System.Classes, FireDAC.Comp.Client, FireDac.DApt, SysUtils;
+  System.Classes, FireDac.DApt, SysUtils, FireDAC.Comp.Client;
 
 type
   TNotifyEvent = procedure (Sender: TObject) of Object;
@@ -52,6 +52,7 @@ begin
     ' From ' + spTabelas.Text + ' ' + #13 +
     ' Where ' + spCondicoes.Text;
 
+    //SQl.Add(Result);
   finally
     Onstatus;
   end;

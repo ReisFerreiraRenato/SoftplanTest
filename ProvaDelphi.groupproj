@@ -4,7 +4,7 @@
     </PropertyGroup>
     <ItemGroup>
         <Projects Include="ProvaDelphiApp.dproj">
-            <Dependencies/>
+            <Dependencies>Component\spComponente.dproj;Component\spComponenteDT.dproj</Dependencies>
         </Projects>
         <Projects Include="Component\spComponente.dproj">
             <Dependencies/>
@@ -20,13 +20,13 @@
             <Default.Personality/>
         </BorlandProject>
     </ProjectExtensions>
-    <Target Name="ProvaDelphiApp">
+    <Target Name="ProvaDelphiApp" DependsOnTargets="spComponente;spComponenteDT">
         <MSBuild Projects="ProvaDelphiApp.dproj"/>
     </Target>
-    <Target Name="ProvaDelphiApp:Clean">
+    <Target Name="ProvaDelphiApp:Clean" DependsOnTargets="spComponente:Clean;spComponenteDT:Clean">
         <MSBuild Projects="ProvaDelphiApp.dproj" Targets="Clean"/>
     </Target>
-    <Target Name="ProvaDelphiApp:Make">
+    <Target Name="ProvaDelphiApp:Make" DependsOnTargets="spComponente:Make;spComponenteDT:Make">
         <MSBuild Projects="ProvaDelphiApp.dproj" Targets="Make"/>
     </Target>
     <Target Name="spComponente">

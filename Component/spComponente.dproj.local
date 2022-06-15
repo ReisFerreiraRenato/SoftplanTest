@@ -2,15 +2,15 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2022/06/13 08:26:10.000.340,=rtl.dcp</Transaction>
-    <Transaction>2022/06/13 08:26:46.000.658,C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\Package1.dproj=C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\spComponente.dproj</Transaction>
+    <Transaction>2022/06/13 08:26:46.000.658,C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\spComponente.dproj=C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
     <Transaction>2022/06/13 08:27:00.000.386,=C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/06/13 08:27:57.000.855,C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\TspQuery.pas</Transaction>
-    <Transaction>2022/06/13 08:29:15.000.810,C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\TspQuery.pas=C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\uspQuery.pas</Transaction>
-    <Transaction>2022/06/13 08:37:41.000.434,C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\uspQuery.pas=D:\SoftPlan\Component\uspQuery.pas</Transaction>
-    <Transaction>2022/06/13 08:37:55.000.196,C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\spComponente.dproj=D:\SoftPlan\Component\spComponente.dproj</Transaction>
-    <Transaction>2022/06/13 08:52:07.000.920,=FireDACCommonDriver.dcp</Transaction>
-    <Transaction>2022/06/13 08:52:07.000.868,=FireDAC.dcp</Transaction>
-    <Transaction>2022/06/13 08:52:07.000.949,=FireDACCommon.dcp</Transaction>
+    <Transaction>2022/06/13 08:27:57.000.855,C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\TspQuery.pas=C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/13 08:29:15.000.810,C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\uspQuery.pas=C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\TspQuery.pas</Transaction>
+    <Transaction>2022/06/13 08:37:41.000.434,D:\SoftPlan\Component\uspQuery.pas=C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\uspQuery.pas</Transaction>
+    <Transaction>2022/06/13 08:37:55.000.196,D:\SoftPlan\Component\spComponente.dproj=C:\Users\Renato\Dropbox\PC\Documents\Embarcadero\Studio\Projects\spComponente.dproj</Transaction>
     <Transaction>2022/06/13 08:52:07.000.849,=dbrtl.dcp</Transaction>
+    <Transaction>2022/06/13 08:52:07.000.868,=FireDAC.dcp</Transaction>
+    <Transaction>2022/06/13 08:52:07.000.920,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2022/06/13 08:52:07.000.949,=FireDACCommon.dcp</Transaction>
   </Transactions>
 </BorlandProject>
