@@ -52,7 +52,7 @@ begin
     ' From ' + spTabelas.Text + ' ' + #13 +
     ' Where ' + spCondicoes.Text;
 
-    //SQl.Add(Result);
+    SQL.Add(Result);
   finally
     Onstatus;
   end;

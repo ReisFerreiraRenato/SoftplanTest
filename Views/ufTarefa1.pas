@@ -4,7 +4,9 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, uGeraSQL_Controller;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Buttons, uGeraSQL_Controller,
+  FireDAC.Phys.MSAccDef, FireDAC.Stan.Intf, FireDAC.Phys, FireDAC.Phys.ODBCBase,
+  FireDAC.Phys.MSAcc;
 
 type
   TfTarefa1 = class(TForm)
@@ -18,6 +20,7 @@ type
     mSQLGerado: TMemo;
     btGerarSQL: TBitBtn;
     btLimpar: TBitBtn;
+    FDPhysMSAccessDriverLink1: TFDPhysMSAccessDriverLink;
     procedure btGerarSQLClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure btLimparClick(Sender: TObject);

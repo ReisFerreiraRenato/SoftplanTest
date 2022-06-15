@@ -91,4 +91,8 @@ object fTarefa1: TfTarefa1
     TabOrder = 5
     OnClick = btLimparClick
   end
+  object FDPhysMSAccessDriverLink1: TFDPhysMSAccessDriverLink
+    Left = 552
+    Top = 136
+  end
 end

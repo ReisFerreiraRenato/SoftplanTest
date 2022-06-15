@@ -48,10 +48,8 @@ begin
     qry_gera_sql.spColunas := colunas;
     qry_gera_sql.spTabelas := tabelas;
     qry_gera_sql.spCondicoes := condicoes;
-    //qry_gera_sql.GeraSQL;
-    // Result := qryGeraSQL.SQL.Strings[0];
-
-    Result := qry_gera_sql.GeraSQL;
+    qry_gera_sql.GeraSQL;
+    Result := qry_gera_sql.SQL.Strings[0];
 
   finally
     colunas.Free;
